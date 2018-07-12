@@ -1,2 +1,2 @@
 # MyBatchApp
-A sample batch application that can keep the CPU busy
+A sample batch application that will print some output on console
