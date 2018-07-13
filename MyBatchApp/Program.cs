@@ -24,7 +24,9 @@ namespace MyBatchApplication
             while (true)
             {
                 System.Threading.Thread.Sleep(500);
-                string stamp = DateTime.Now.ToString("HH:mm:ss") + "-->" + Math.Sqrt(DateTime.Now.Millisecond);
+
+                string stamp = DateTime.Now.ToString("HH:mm:ss") + "-->" 
+                    + Math.Sqrt(DateTime.Now.Millisecond);
                 Console.WriteLine($"{param}:{stamp}");
             }
         }
